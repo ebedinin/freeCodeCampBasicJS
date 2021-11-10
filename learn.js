@@ -1,7 +1,2 @@
-const myNoun = "dog";
-const myAdjective = "big";
-const myVerb = "ran";
-const myAdverb = "quickly";
-
 // Only change code below this line
-const wordBlanks = myAdjective+ " "+myNoun+" "+myAdverb+" "+myVerb; // Change this line// Only change code above this line
+const myArray = ["peanut butter", 1, 2];
