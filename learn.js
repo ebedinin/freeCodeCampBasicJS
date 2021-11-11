@@ -1,29 +1,24 @@
-const names = ["Hole-in-one!", "Eagle", "Birdie", "Par", "Bogey", "Double Bogey", "Go Home!"];
-
-function golfScore(par, strokes) {
-    // Only change code below this line
-    const diff = par - strokes;
-    if (strokes === 1) {
-        return "Hole-in-one!";
+function caseInSwitch(val) {
+    let answer = "";
+    switch (val) {
+        case 1:{
+            answer = "alpha";
+            break;
+        }
+        case 2:{
+            answer = "beta";
+            break;
+        }
+        case 3:{
+            answer = "gamma";
+            break;
+        }
+        case 4:{
+            answer = "delta";
+            break;
+        }
     }
-    else if (strokes <= (par - 2)) {
-        return "Eagle";
-    }
-    else if (strokes <= (par - 1)) {
-        return "Birdie";
-    }
-    else if (strokes === par) {
-        return "Par";
-    }
-    else if (strokes >= (par + 3)) {
-        return "Go Home!";
-    }
-    else if (strokes >= (par + 2)) {
-        return "Double Bogey";
-    }
-    else {
-        return "Bogey";
-    }
+    return answer;
 }
 
-golfScore(5, 4);
+caseInSwitch(1);
